@@ -1,0 +1,1 @@
+las dos pruebas las hice en un solo index

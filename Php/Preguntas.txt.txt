@@ -1,0 +1,36 @@
+Conocimientos PHP: Preguntas
+
+1.	¿PHP soporta la herencia múltiple?
+R//: PHP no permite implementar herencia multiple, debido a que una clase puede heredar solo de un padre, pero puede implementar varias interfaces
+
+
+2.	¿Es posible ejecutar un script de PHP desde consola? 
+R//: Esto es posible gracias al intérprete de líneas de comandos de PHP llamado PHP-CLI (por sus siglas en inglés, PHP Command Line Interpreter).
+
+
+3.	¿Cómo se declara una variable en PHP?
+R// En PHP las variables se representan con un signo de dólar seguido por el nombre de la variable.
+
+
+
+4.	¿Cómo se usa el operador condicional ternario en PHP? 
+R//: Podríamos usar el operador ternario de este modo: $resultado = $condicion ? 'verdadero' : 'falso'; Si la variable $condicion se evalúa como true , el operando de la izquierda 'verdadero' será asignado a la variable $resultado
+
+5.	¿Qué es una 'session'?
+R//: Las sesiones son una forma sencilla de almacenar datos para usuarios de manera individual usando un ID de sesión único.
+
+
+6.	¿Es posible cambiar el tamaño máximo que pueden tener los archivos al ser subidos? 
+R:// PHP tiene limitada la subida de archivos por defecto y, para poder subir archivos de mayor tamaño, habrá que modificar algunos valores. En upload_max_filesize puedes indicar el tamaño máximo de los archivos reemplazando el 2M por el valor que necesite.
+
+
+7.	¿Cuál es la diferencia entre $a != $b y $a !== $b? 
+R://  Un tipo de expresiones muy comunes son las expresiones de comparación. Estas expresiones evalúan si algo es false o true.
+
+
+
+
+8.	¿Qué son las inyecciones SQL y cómo prevenirlas? 
+R://  La inyección de SQL es una técnica de ataque que se aprovecha de los agujeros de seguridad existentes en campos de datos, como formularios de contacto y barras de búsqueda, o en páginas web con contenido dinámico; en otras palabras, áreas interactivas que ofrecen una “línea directa” a una base de datos en el backend.
+
+Prevención: Usar declaraciones prediseñadas, consultas parametrizadas o procedimientos almacenados para garantizar que los elementos SQL en los campos de entrada del usuario nunca se traten como consultas genuinas.

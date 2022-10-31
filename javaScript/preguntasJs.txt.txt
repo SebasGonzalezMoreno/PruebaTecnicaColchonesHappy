@@ -1,0 +1,31 @@
+Conocimientos JavaScript: Preguntas
+
+
+1.	¿Qué es y cómo se crea un 'Promise'?
+R//: una promesa es un objeto devuelto al cual se adjuntan funciones callback , en lugar de pasar callbacks a una función.
+	
+
+2.	¿Qué es 'AJAX'?
+R//: permite que un usuario de la aplicación web interactúe con una página web sin la interrupción que implica volver a cargar la página web.
+    
+
+3.	¿Cuál es la diferencia entre sincronismo y asincronismo?
+R//: Síncrono: La respuesta sucede en el presente, una operación síncrona esperará el resultado. 
+Asíncrono: La respuesta sucede a futuro, una operación asíncrona no esperará el resultado.
+
+
+4.	¿Cuál sería el resultado 3+2+"7"?
+R//:  57 
+
+
+5.	¿Cuáles son todos los tipos de ventanas emergentes disponibles en JavaScript?
+R//:  Solo 3, los cuales son :  alert()confirm()prompt()
+	
+	
+
+6.	¿Qué palabras clave se usan para manejar las excepciones?
+R//:  try, catch
+
+
+7.	¿Cuál es la forma de obtener el estado de un ‘CheckBox’?
+R//:  obteniendo el valor del checkbox para saber si es true o false 

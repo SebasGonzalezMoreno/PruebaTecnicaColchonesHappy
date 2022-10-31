@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;  
+  
+  
+}
+
+h1 {
+  color: #a52a2a;
+  font-size: 2rem;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h3 {
+  margin-top: 5rem;
+  color: #a52a2a;
+  font-size: 2rem;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.container {
+  margin-top: 2rem;
+  width: 20rem;
+  height: 20rem;
+  border: groove 20px #252c33; 
+  transition: all .5s ease;
+
+}
+
+.controls {
+  width: 5em;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  
+}
+
+
+
+.option {
+  cursor: pointer;
+  background-color: black;
+  color: wheat;
+  
+}
+
+
+.select{
+  font-size: 2rem;  
+  cursor: pointer;
+  font-family: 'Varela Round', sans-serif;
+  background-color: white;
+  color: black;
+  transition: all .5s ease;
+  border: #000000 solid;
+}
+
+.select:focus{
+  background-color: black;
+  color: wheat;
+  transition: all .5s ease;
+  border: none;
+}
+
+button{
+  width: 10rem;
+  height: 5rem;
+  font-family: 'Varela Round', sans-serif;
+  border:none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.boton-oscuro{
+  width: 30rem;
+  height: 3rem;
+  font-family: 'Varela Round', sans-serif;
+  border:none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.boton-oscuro:hover{
+  width: 30rem;
+  height: 3rem;
+  font-family: 'Varela Round', sans-serif;
+  border:#252c33 solid;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.boton-claro{
+  width: 30rem;
+  height: 3rem;
+  font-family: 'Varela Round', sans-serif;
+  border:none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.boton-claro:hover{
+  width: 30rem;
+  height: 3rem;
+  font-family: 'Varela Round', sans-serif;
+  border:#ffffff solid;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+button:hover{
+  font-family: 'Varela Round', sans-serif;
+  border:#252c33 solid;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.input{
+  border: black solid;
+  border-radius: 5px;
+  transition: all .5s ease;
+  margin-top: 20px;
+  width: 20rem;
+  height: 3rem;
+}
+
+p{
+  margin-bottom: 5rem;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.input:focus{
+  background-color:  gray;
+  transition: all .5s ease;
+}
+
+
+/*script*/
+
+.mostrar{
+  position: block;
+}
+
+.ocultar{
+  display: none;
+}
+
+.option-black {
+  cursor: pointer;
+  background-color: wheat;
+  color: black;
+  transition: all .5s ease;
+  
+}
+
+
+.select-black{
+  font-size: 2rem;  
+  cursor: pointer;
+  font-family: 'Varela Round', sans-serif;
+  background-color: black;
+  color: white;
+  transition: all .5s ease;
+  border: #ffffff solid;
+}
+
+.button-black{
+  font-family: 'Varela Round', sans-serif;
+  border:none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.button-black:hover{
+  font-family: 'Varela Round', sans-serif;
+  border:#ffffff solid;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.container-black {
+  margin-top: 2rem;
+  width: 20rem;
+  height: 20rem;
+  border: groove 20px #ffffff; 
+  transition: all .5s ease;
+}
+
+.input-black{
+  width: 20rem;
+  height: 3rem;
+  border: rgb(251, 247, 247) solid;
+  border-radius: 5px;
+  transition: all .5s ease;
+  margin-top: 20px;
+}
+
+.input-black:focus{
+  background-color:  black;
+  color: white;
+  transition: all .5s ease;
+}
+
+/*media query*/
+
+@media (max-width: 600px)  {
+
+.select {
+   font-size: 0.8rem;
+    width: 9rem;
+}
+.select-black {
+  font-size: 0.8rem;
+   width: 9rem;
+}
+
+.boton-oscuro{
+  height: 2rem;
+  width: 10rem;
+}
+.boton-oscuro:hover{
+  height: 2rem;
+  width: 10rem;
+}
+
+.boton-claro{
+  height: 2rem;
+  width: 10rem;
+}
+.boton-claro:hover{
+  height: 2rem;
+  width: 10rem;
+}
+
+  
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/Arrays.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Generador de colores</title>
+</head>
+<body id="body">
+  <h1 id="tittle">boton rgb</h1>
+  <div id="contenedor" class="container">    
+  </div>
+  <div class="controls">
+    <button onclick="generate_color()" id="btn-generate">Generate</button>
+  </div>
+  <br>
+  <div>
+    <button id="oscuro" class="boton-oscuro">modo oscuro</button>
+  </div>
+  <div>
+    <button id="claro" class="boton-claro ocultar">modo claro</button>
+  </div>
+  <div style="text-align:center ;">
+    <h3>validaciones input</h3>
+    <input onkeypress="return check(event)" class="input" id="txt-color" type="text" placeholder="Insert one color...">
+    <p id="txt"></p>
+  </div>
+ 
+  <script src="app.js"></script>
+</body>
+</html>
